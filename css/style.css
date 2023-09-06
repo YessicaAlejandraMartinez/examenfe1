@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css2? family= Be+Vietnam+Pro:ital, display=swap');
+/*ENCABEZADO/HEADER*/
+.encabezado{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    height: 174px;
+    padding: 15px;
+}
+.imgJugador{
+    display: block;
+    height: 461;
+    width: 540px;
+    padding: 15px;
+    border: 5px;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 100px;
+    align-items: center;
+    width: 590px;
+}
+
+.mano{
+    align-items: flex-end;
+    position: absolute;
+    z-index: 1;
+    display: block;
+    width: 45px;
+    height:45px;
+    color: black;
+}
+
+.listmenu a{
+    position: relative;
+    z-index: 0;
+    height: 20px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 700px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    color: black;
+}
+a:hover{
+    color: rgb(133, 38, 112);
+}
+i .fa-regular{
+    display: block;
+    position:absolute
+}
+.boton , .botonHeader{
+    font-size: 20px;
+    width: 134px;
+    height: 44px;
+    border-radius: 50px;
+    padding: 10px;
+    background-color: #8b48bf;
+    color:white    
+}
+.icono{display: none;}
+/*Principal */
+main{
+    display: block;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    width: 100%;
+    justify-content: space-around;
+}
+/* Primera seccion*/
+.imagenTitulo{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+    height: 460px;
+    width: 85%;
+    padding: 15px;
+    border: 15px;
+}
+
+.textoInicio{
+    width: 450px;
+    height: 399px;
+    text-align: right;
+}
+h1{
+    height: 228px;
+    font-weight: 700px;
+    font-size: 50px;
+    line-height: 57px;
+}
+p{
+    font-weight: 500px;
+    font-size: 18px;
+    line-height: 26px;
+}
+/* Seccion Background morado*/
+
+.seccionMorada{
+    background-color: #8b48bf;
+    color: white;
+    display: flex;
+    height: 168px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    align-items: center;
+    padding: 15px;
+    border: 15px;
+}
+.pregunta{
+    height: 88px;
+    font-weight: 700px;
+    font-size: 40px;
+    line-height: 42px;
+}
+.lorem{
+    width: 450px;
+    height: 88px;
+    font-size: 20px;
+    line-height: 24px;
+}
+/* Seccion de Articulos*/
+.seccionArticle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.divArticle{ 
+    display: flex;
+    flex-direction: row;
+    width: 450px;
+}
+.contenedor1y2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 1133px;
+}
+.article{
+    display: flex;
+    flex-direction: column;
+    height: 162px;
+    width: 553px;
+}
+.pRelleno{
+    width: 400;
+    text-align: justify;
+    align-items: flex-end;
+}
+.numero{
+    width: 70px;
+    height: 43px;
+    border-radius: 30px;
+    padding: 10px 25px;
+    background-color: #8b48bf;
+    color: white;
+}
+.tituloh3{
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 23px;
+    letter-spacing: -1.5%;
+}
+
+boton:hover{
+    background-color: #8d21e0;
+}
+
+.deportistas{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.loMejor{
+    height: 61px;
+    text-align: center;
+font-size: 39px;
+font-weight: 700;
+line-height: 61px;
+letter-spacing: -0.01em;
+}
+.btnMore{
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: 80px;
+}
+
+.contDeportista{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.deporte{
+    display: flex;
+    flex-direction: column;
+    width: 445px;
+    align-items: center;
+}
+
+
+.botonBlanco{
+    font-size: 20px;
+    width: 134px;
+    height: 44px;
+    border-radius: 50px;
+    padding: 10px;
+    color: #8b48bf;  
+}
+
+.team{
+    height: 88px;
+    font-weight: 700px;
+    font-size: 40px;
+    line-height: 42px;
+    width: 392px;
+}
+
+footer{
+    height: 247px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: black;
+    align-items: center;
+    width: auto;
+}
+.logo{
+    height: 25px;
+}
+.redes{
+    top: 547px;
+}
+
+.navFooter{
+    height: 141px;
+    width: 392px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.listMenu{
+    
+    width: 100px;
+
+}
+
+
+
+
+
+
+
+
+
+/*Media Cueries para movil*/
+
+@media(max-width : 500px){
+    .encabezado{
+        height: 174px;
+        width: 490px;
+        justify-content: space-around;
+    }
+    .botonHeader , .menu{ display: none;}
+    .icono{
+        display: block;
+        align-items: flex-end;
+    }
+    .imagenTitulo{
+        border: 13px;
+        padding: 1rem;
+        flex-direction: column;
+        height: 840px;
+        width:450px;
+    }
+    .imgJugador{width: 400px; height: 341px;}
+    .seccionMorada{
+        border: 30px;
+        height: 306px;
+        flex-direction: column;
+        background-color: #3CDDF3;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .seccionArticle{
+        width: 460px;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .contenedor1y2{
+        flex-direction: column;
+        width: 450px;
+        align-items: flex-start;
+    }
+    .article{
+        flex-direction: column;
+        height: auto;
+        width: 450px;
+    }
+    .divArticle{ background: #8B48BF4D; height: 43px;
+    }
+}
